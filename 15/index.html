@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="sulomhb">
+    <title>McBergbys bestillingssystem</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../stiler/style.css" />
+</head>
+
+<body>
+
+    <nav class="navbar nav-tabs fixed-top bg-dark navbar-expand-sm pb-0">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#minmeny" aria-controls="minmeny"
+                aria-expanded="false" aria-label="Vis navigasjonsmeny">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="minmeny">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link active" href="../14/index.html">Bestilling&nbsp;</a>
+                    <a class="nav-item nav-link" href="../06/hamburgerskolen.html">Burgerskolen&nbsp;</a>
+                    <a class="nav-item nav-link" href="../07/om.html">Om Mcbergbys&nbsp;</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <br />
+        <br />
+
+        <h1>Velkommen til McBergbys</h1>
+
+
+        <img src="../bilder/hamburgers.jpg" id="hamburgers" width="400" alt="Hamburgere - bildet er tatt av Niklas Rhöse" />
+
+
+        <h2>Sett sammen din meny</h2>
+        <br />
+
+        <h3>En meny koster kr. 99,- uansett hvilken kombinasjon du velger.</h3>
+
+        <br />
+        <form action="bestillingsmottak.php" method="post">
+
+            <h4>Din kontaktinfo:</h4>
+            <label>Navn</label>
+
+            <br />
+
+            <input type="text" name="navn" />
+
+            <br />
+            <br />
+
+            <label>Mobilnr.</label>
+            <br />
+            <input type="text" name="tlf" />
+
+            <h4>Drikke:</h4>
+            <input type="radio" name="drikke" value="Cola" />
+            <label>Cola</label>
+
+            <br />
+
+            <input type="radio" name="drikke" value="Solo" />
+            <label>Solo</label>
+
+            <br />
+
+            <input type="radio" name="drikke" value="Sitronbrus" />
+            <label>Sitronbrus</label>
+
+            <br />
+
+            <input type="radio" name="drikke" value="Vann" />
+            <label>Vann</label>
+
+            <br />
+            <br />
+
+            <h4>Burger:</h4>
+
+            <input type="radio" name="burger" value="Superburger" />
+            <label> Superburger - alles favoritt </label>
+
+            <br />
+            <input type="radio" name="burger" value="Cheeseburger" />
+            <label>Cheeseburger - hvis du liker ost</label>
+
+            <br />
+
+            <input type="radio" name="burger" value="Veggisburger" />
+            <label>Veggis -glad i planter</label>
+
+            <br />
+            <br />
+
+            <h4>Tilbehør:</h4>
+
+            <input type="radio" name="tilbehør" value="Pommesfrites" />
+            <label>Pommes frites</label>
+
+            <br />
+
+            <input type="radio" name=tilbehør value="Løkringer" />
+            <label>Løkringer</label>
+
+            <br />
+
+            <input type="radio" name="tilbehør" value="Cheesesticks" />
+            <label>Cheese sticks</label>
+
+            <br />
+            <br />
+
+            <h4>Annet:</h4>
+            <input type="checkbox" name="ekstra[]" value="Ketchup" />
+            <label>Ketchup laget av ekte tomater</label>
+
+            <br />
+
+            <input type="checkbox" name="ekstra[]" value="Sennep" />
+            <label>Sennep av den knallsterke typen</label>
+
+            <br />
+
+            <input type="checkbox" name="ekstra[]" value="Grillkrydder" />
+            <label>Grillkrydder som passer til alt</label>
+
+            <br />
+
+            <input type="checkbox" name="ekstra[]" value="Dip" />
+            <label>Dip laget etter vår hemmelige oppskrift</label>
+
+            <br />
+            <br />
+            <div id="skjemaknapper">
+                <input type="submit" value="Send bestilling" />
+                <input type="reset" value="Nullstill skjema" />
+        </form>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

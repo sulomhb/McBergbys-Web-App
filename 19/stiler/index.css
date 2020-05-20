@@ -1,0 +1,228 @@
+/*Standard*/
+html {
+	background: url("../bilder/bakgrunn.jpg") no-repeat center center fixed;
+	background-size: cover;
+	margin: 50px;
+}
+
+nav a {
+    float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 16px 18px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #FECC6B;
+	color: black;
+}
+
+nav a.aktiv {
+	background-color: #DB3C31;
+	color: white;
+}
+
+#overskrift {
+    color: black;
+    font-size: 2.5em;
+}
+
+/*Index*/
+#meny_velgeren{
+	float: left;
+	position: relative;
+}
+
+#id_fullfør {
+	/*display: inline-block;*/
+	background-color: white;
+	border: none;
+	color: black;
+	text-align: center;
+	width: 100px;
+	transition: all 0.5s;
+	cursor: pointer;
+	float: left;
+	padding: 10px;
+	margin: 10px;
+}
+
+#id_nullstill {
+	/*display: inline-block;*/
+	background-color: white;
+	border: none;
+	color: black;
+	text-align: center;
+	width: 100px;
+	transition: all 0.5s;
+	cursor: pointer;
+	padding: 10px;
+	float: left;
+	margin: 10px;
+}
+
+#id_fullfør:hover {
+	background-color: rgb(254, 205, 107);
+}
+
+#id_nullstill:hover {
+	background-color: rgb(236, 38, 24);
+}
+
+.galleri {
+    width: 400px;
+	display: block;
+	float: right;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.rød_stjerne {
+	color: red;
+}
+
+/*Vaktliste*/
+table,
+th,
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	background-color: whitesmoke;
+}
+
+th {
+	background-color: grey;
+}
+
+.tidlig {
+	background-color: green;
+}
+
+.sen {
+	background-color: red;
+}
+
+.mellom {
+	background-color: yellow;
+}
+
+.fri {
+	background-color: lightgray;
+}
+
+#tabel{
+	width: 100%;
+}
+
+/*Hamburgerskolen*/
+#video{
+	float: left;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.tekst_4 {
+	float: left;
+}
+
+/*Om*/
+#om {
+    float: left;
+    background-color: grey;
+    padding: 15px;
+    display: block;
+    width: 14em;
+    margin: 1em;
+    display: block;
+    
+}
+
+#kart{
+    float: right;
+    border: 1px solid black;
+    background-color: #FECC6B;
+    border-radius: 10%;
+    padding: 15px;
+}
+
+a#finn_kart{
+    width: 250px;
+    height: 250px;
+}
+
+#vi {
+    text-align: center;
+}
+
+#hamburger{
+    border: 0.5px solid black;
+    width: 250px;
+    margin: 1em;
+    padding: 10px;
+    background-color: grey;
+    float: left;
+}
+
+#hamburger_bilde{
+    width: 250px;
+    height: 200px;
+}
+
+#drikke{
+    border: 0.5px solid black;
+    width: 250px;
+    margin: 1em;
+    padding: 10px;
+    background-color: grey;
+    float: left;
+}
+
+#drikke_bilde{
+    width: 250px;
+    height: 200px;
+}
+
+#tilbehør{
+    border: 0.5px solid black;
+    width: 250px;
+    margin: 1em;
+    padding: 10px;
+    background-color: grey;
+    float: left;
+}
+
+#tilbehør_bilde{
+    width: 250px;
+    height: 200px;
+}
+
+/*Personvern*/
+
+/*Bestillingsliste*/
+#bestilling{
+	background-color: red;
+	border: none;
+	color: white;
+	text-align: center;
+	width: 60px;
+	cursor: pointer;
+	float: left;
+	padding: 10px;
+	margin: 10px;
+}
+
+th.bunn{
+	background-color: white;
+}
