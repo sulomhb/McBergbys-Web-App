@@ -1,10 +1,13 @@
-McBergby's Corporation is a Norwegian fast food company, founded in 2018 as a restaurant operated by Suleyman Selcuk, in Skien, Vestfold & Telemark, Norway.  McBergbys's is best known for its hamburgers, cheeseburgers and french fries. Take a look at their brand new website where you can order food easily!
+Simple web-app for ordering fast food online. Made for learning purposes.
 
-This was a project I worked with my first year at high school.
+Technologies used: 
+- HTML 
+- CSS 
+- PHP
+- MySQL
 
-Technologies used: HTML, CSS, PHP, MySQL.
+Frameworks used: 
+- Bootstrap
 
-Frameworks used: Bootstrap
-
-Link to website:
-http://webkode.skit.no/~3009sesu/IT%201/McBergbys/19/
+Tools used:
+- MYSQL workshop for modeling the database and the relations in the database.
